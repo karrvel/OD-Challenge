@@ -1,0 +1,82 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+
+    width: 100%;
+    }
+    .Navbar__left__logo{
+      margin-top:15px;
+        width: 105px;
+      height:50px
+      
+       
+    }
+
+.Navbar__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.Navbar__left__input {
+    
+    height: 50px;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #00a651;
+    border-right: none;
+    box-shadow: inset 0 2px 2px rgb(0 0 0 / 15%);
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Navbar__left__button {
+    width: 90px;
+    height: 49px;
+    background-color: transparent;
+    border-radius: 4px;  
+    color: #00a651;
+    border-color: #00a651;
+}
+
+.Navbar__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.Navbar__right__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;    
+    text-decoration: none;
+    gap: 15px;
+    
+}
+.Navbar__right__ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.Navbar__right__btn {
+    width: 80px;
+    height: 50px;
+    border-color: #00a651;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #00a651;
+
+}
+.Navbar__left__{
+    display: flex;
+}

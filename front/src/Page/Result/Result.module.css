@@ -1,0 +1,94 @@
+.container {
+  width: 100%;
+  max-width: 1040px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+.result{
+  padding: 50px;
+}
+
+.result__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.result__btns a {
+  background-color: #f5f5f5;
+  padding: 9px;
+  border-radius: 10px;
+  
+}
+
+.result__photos {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.left {
+  border-radius: 10px;
+  width: 105%;
+}
+
+.right__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+
+.right {
+  width: 67%;
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+  margin-bottom: 45px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.infos p span{
+  color: rgb(214, 252, 179);
+}
+.problems h2{
+  margin-bottom: 15px;
+}
+.problems ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
+.problems ul li a{
+  color: #0af ;
+  transition: .5s;
+}
+.problems ul li a:hover{
+  color: #f65458 ;
+}
+.problems ul li::marker{
+  color: #f65458;
+}

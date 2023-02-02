@@ -1,0 +1,65 @@
+import React from "react";
+
+function Icon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+      <defs>
+        <linearGradient
+          id="linearGradient2864"
+          x1="26.475"
+          x2="26.857"
+          y1="24.527"
+          y2="31.791"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#fce94f"></stop>
+          <stop offset="1" stopColor="#fce94f" stopOpacity="0"></stop>
+        </linearGradient>
+        <filter
+          id="filter3648"
+          width="1.079"
+          height="2.114"
+          x="-0.039"
+          y="-0.557"
+        >
+          <feGaussianBlur stdDeviation="0.842"></feGaussianBlur>
+        </filter>
+      </defs>
+      <g>
+        <g>
+          <path
+            fill="url(#linearGradient2864)"
+            stroke="#2e2727"
+            strokeLinecap="round"
+            strokeWidth="1.199"
+            d="M7.176 34.803S5.618 26.978 6.2 25.94c1.379-2.461 4.654.81 7.4.162 0 0 7.634-4.196 12.115-4.066 4.072.12 7.652 3.136 11.71 3.497 0 0 7.168.417 12.034.976 2.299.264 5.926 1.928 7.69 3.778 1.04 1.09 1.92 3.709 1.011 4.679-16.356-1.213-38.933-2.022-50.984-.162z"
+          ></path>
+          <path
+            fill="#555753"
+            stroke="#fcfeff"
+            strokeWidth="1.199"
+            d="M18.072 33.136a5.164 4.432 0 11-10.328 0 5.164 4.432 0 1110.328 0z"
+          ></path>
+          <path
+            fill="#555753"
+            stroke="#fcfeff"
+            strokeWidth="14.9"
+            d="M673.77 488.7a70.206 54.548 0 11-140.41 0 70.206 54.548 0 11140.41 0z"
+            transform="matrix(.07167 0 0 .08475 5.628 -8.498)"
+          ></path>
+          <path
+            fill="#999"
+            stroke="#ada7a7"
+            strokeLinecap="round"
+            strokeWidth="0.6"
+            d="M57.059 39.724a25.662 1.816 0 11-51.324 0 25.662 1.816 0 1151.324 0z"
+            filter="url(#filter3648)"
+            opacity="0.202"
+          ></path>
+        </g>
+      </g>
+    </svg>
+  );
+}
+
+export default Icon;
